@@ -1,0 +1,368 @@
+/* corpo */
+
+body {
+    font-family: Nunito, sans-serif´;
+    color: #1c1c1c;
+}
+
+h1, h2, h3 {
+    font-family: asap, sans-serif;
+    color: #000000;
+}
+.conteinerSocais{			
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+    width: 10%;
+
+}
+
+.botao {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 5px 30px;
+    background-color: #191970;
+    font-size: .9em;
+    border-radius: 2px;
+}
+
+/* Navegação */
+
+nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #191970;
+}
+
+nav > a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 32PX;
+        font-weight: 800;
+        font-family: Yellowtail, sans-serif;
+}
+nav ul {
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+        width: 100%;
+}
+nav ul li  {
+    text-align: center;
+    width: 100%;
+}
+nav ul li a  {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+/*Cabeçalho*/
+
+header {
+    height: 600px;
+	background-image: url("../img/Banner\ de\ Topo.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+    
+}
+
+input {
+    display: block;
+    margin: 5 auto;
+    padding: 10px;
+}
+
+.cadastro {
+    position: absolute;
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.30);
+	top: 500px;	
+	left: 70px;	
+	height: fit-content;
+	border-radius: 10px;
+}
+.form {
+    display: block;
+    margin-top: 2em;
+    margin-block-end: .9em;
+    margin: 20px;
+}
+
+.fieldset {
+    display: inline-block;  
+    background-color: rgba(2, 2, 2, 0.75);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+}
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+	background-color:#f9f9f9;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+    margin-left: 130;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+	background-color:#e9e9e9;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+header p{
+    margin-bottom: 2em;
+    color: white;
+
+
+}
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color: #191970;
+    color: #FFFFFF;
+    
+} 
+.img  {
+     display: flex;
+     flex-direction: column;
+    width: 33.3333333%;
+} 
+#sobre h2 {
+    color: #FFFFFF;
+}
+
+#sobre p{
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+#sobre .botao{
+    background-color: #f1f1f1;
+    color: #1c1c1c;
+
+}
+
+/*Serviços*/
+
+#serviços {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+#serviços div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/*Galeria*/
+
+#galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
+}
+
+#galeria h2 {
+    margin-left: 20px;
+}
+
+#galeria img{
+
+width: 100%;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 20px;
+}
+
+/*Contato*/
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#contato h2 {
+    color: #000000;
+}
+
+/*formulario*/
+#duvida {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.commit{
+width: 100%;
+max-width: 500px;
+}
+
+.formb{
+    display: flex;
+    flex-direction: column;
+    }
+    
+.fleld{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+ }
+
+ textarea{
+    height: 150px;
+    }
+
+/*Rodapê*/
+
+footer {
+    text-align: center;
+
+    padding-left: 478;
+    padding-right: 478;
+    background-color: #191970;
+    color: #FFFFFF;
+}
+
+footer a {
+    text-decoration: none;
+    color: #00ffff;
+}
+
+@media screen and (min-width: 768px) {
+
+    /*nav*/
+
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    nav ul {
+        flex-direction: row;
+        width: 70%;
+    }
+
+    /*Cabeçalho*/
+
+    header {
+        height: 800px;
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+    }
+    .cadastro { 
+        width: fit-content;
+        position: static !important; 
+        padding-top: 20px;
+        background-color: rgba(0, 0, 0, 0.3);
+        height: fit-content;
+        border-radius: 10px;
+        margin: 0 auto;
+    }
+    .check{
+        display: inline-block;
+        height: 20px;
+    }
+
+    /*Sobre*/
+
+    #sobre { 
+        height: 250px;
+        height: 30vh;
+        justify-content: center;
+        min-width: 150px;
+
+    }
+
+    /*Serviços*/
+
+    #serviços {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    #serviços h2 {
+        text-align: center;
+        width: 100%;
+
+    }
+
+    #serviços div {
+        flex-grow: 1;
+        flex-basis: 150px;
+        padding: 0 10px;
+    }
+
+    /*Galeria*/
+
+    #galeria {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 20px;
+
+    }
+
+    #galeria h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #galeria img {
+        width: 33.3333333%;
+    }
+
+    /*Contato*/
+
+    #conatato {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    #contato h2, #contato p {
+        width: 100%;
+    }
+    #duvida {
+        display: flex;
+        justify-self: right;
+    }
+}
